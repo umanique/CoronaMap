@@ -1,7 +1,7 @@
 
 function updateMap() {
 
-    fetch("https://github.com/umanique/CoronaMap/blob/main/data.json")
+    fetch("https://github.com/umanique/CoronaMap/main/data.json")
         .then(response => response.json())
         .then(resp => {
             console.log(resp.data)
